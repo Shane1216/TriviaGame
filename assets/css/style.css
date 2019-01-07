@@ -1,0 +1,67 @@
+html, body{
+    height:100%;
+  }
+  
+  body{
+    background-color: black;
+    text-align: center;
+  
+  }
+  
+  #wrapper{
+    background-image: url(../images/background.jpg);
+    margin:2.5% auto;
+    width:960px;
+    height: 95%;
+    box-sizing: border-box;
+  }
+  
+  button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;
+    color: white;
+  }
+  
+  img{
+    height:250px;
+    width: 400px;
+  }
+  
+  h1{
+    font-family: 'Geo', sans-serif;
+    font-size: 6.5em;
+    font-weight: bold;
+    color:black;
+    padding-top: 2.5%;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: white;
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  #start{
+    margin-top: 10%;
+    border:5px solid black;
+    background: teal;
+    color: white;
+  }
+  
+  button:hover {
+    border:5px solid black;
+    background: teal;
+    color: white;
+  }
